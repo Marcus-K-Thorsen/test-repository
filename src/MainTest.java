@@ -4,6 +4,8 @@ public class MainTest {
     Dog dog = new Dog();
     Cat cat = new Cat();
 
+    System.out.println("Dog then Cat");
+
     dog.makeSound();
     cat.makeSound();
 
