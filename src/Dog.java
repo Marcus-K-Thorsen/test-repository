@@ -1,6 +1,9 @@
 public class Dog extends Animal{
 
 
+  public void jump(double distance) {
+    System.out.println("dog jumped the distance of " + distance + " meters.");
+  }
 
   public void showMood(boolean isHappy) {
     if (isHappy) {

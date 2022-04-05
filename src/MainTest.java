@@ -13,5 +13,7 @@ public class MainTest {
     cat.showMood(isCatHappy);
     dog.showMood(false);
     cat.showMood(false);
+    dog.jump(1.5);
+    cat.jump(1.5);
   }
 }
