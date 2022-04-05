@@ -7,7 +7,11 @@ public class MainTest {
     dog.makeSound();
     cat.makeSound();
 
-    dog.eat("dogfood");
-    cat.eat("fish");
+    boolean isDogHappy = dog.eat("dogfood");
+    boolean isCatHappy = cat.eat("fish");
+    dog.showMood(isDogHappy);
+    cat.showMood(isCatHappy);
+    dog.showMood(false);
+    cat.showMood(false);
   }
 }
